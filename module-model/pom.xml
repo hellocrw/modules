@@ -2,7 +2,6 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
-
     <parent>
         <groupId>crw.demo</groupId>
         <artifactId>modules</artifactId>
@@ -10,17 +9,16 @@
     </parent>
 
     <groupId>crw.demo</groupId>
-    <artifactId>module-ui</artifactId>
-    <name>多模块-UI</name>
+    <artifactId>module-model</artifactId>
+    <name>多模块-实体类</name>
     <packaging>jar</packaging>
 
     <dependencies>
         <dependency>
-            <groupId>crw.demo</groupId>
-            <artifactId>module-service</artifactId>
-            <version>0.0.1-SNAPSHOT</version>
+            <groupId>org.projectlombok</groupId>
+            <artifactId>lombok</artifactId>
+            <optional>true</optional>
         </dependency>
     </dependencies>
-
 
 </project>

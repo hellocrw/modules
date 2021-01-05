@@ -11,7 +11,15 @@
 
     <groupId>crw.demo</groupId>
     <artifactId>module-service</artifactId>
-    <name>module-service</name>
+    <name>多模块-服务</name>
     <packaging>jar</packaging>
+
+    <dependencies>
+        <dependency>
+            <groupId>crw.demo</groupId>
+            <artifactId>module-model</artifactId>
+            <version>0.0.1-SNAPSHOT</version>
+        </dependency>
+    </dependencies>
 
 </project>

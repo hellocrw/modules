@@ -10,9 +10,10 @@
     </parent>
 
     <groupId>crw.demo</groupId>
-    <artifactId>module-ui</artifactId>
-    <name>多模块-UI</name>
-    <packaging>jar</packaging>
+    <artifactId>module-api</artifactId>
+    <version>0.0.1-SNAPSHOT</version>
+    <name>多模块-接口</name>
+    <description>api</description>
 
     <dependencies>
         <dependency>
@@ -21,6 +22,5 @@
             <version>0.0.1-SNAPSHOT</version>
         </dependency>
     </dependencies>
-
 
 </project>

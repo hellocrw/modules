@@ -10,12 +10,14 @@
     <groupId>crw.demo</groupId>
     <artifactId>modules</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <name>modules</name>
+    <name>多模块-父模块</name>
     <packaging>pom</packaging>
 
     <modules>
         <module>module-ui</module>
         <module>module-service</module>
+        <module>module-api</module>
+        <module>module-model</module>
     </modules>
 
     <properties>
@@ -31,7 +33,6 @@
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-web</artifactId>
         </dependency>
-
     </dependencies>
 
 </project>
