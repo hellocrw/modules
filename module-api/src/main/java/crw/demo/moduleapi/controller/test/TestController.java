@@ -1,4 +1,4 @@
-package crw.demo.moduleapi.controller;
+package crw.demo.moduleapi.controller.test;
 
 import crw.demo.moduleservice.service.TestService;
 import org.springframework.beans.factory.annotation.Autowired;
